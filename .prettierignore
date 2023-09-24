@@ -1,0 +1,27 @@
+# Ignore artifacts: 
+build 
+coverage
+
+#Next Js & IDE
+.next
+.vscode
+
+#Node packages
+node_modules
+package.json
+*.yaml
+
+# Ignore all HTML files:
+*.html 
+
+#Ignore all JS files:
+*.js
+
+#Ignore all Md files:
+*.md
+
+# vercel
+.vercel
+
+#typescript
+next-env.d.ts

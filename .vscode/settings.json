@@ -1,0 +1,12 @@
+{
+    "tailwindCSS.experimental.classRegex": [
+        ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
+    ],
+    "cSpell.words": [
+        "clsx",
+        "nextui",
+        "preinstall",
+        "tailwindcss"
+    ],
+    "typescript.tsdk": "node_modules\\typescript\\lib"
+}
