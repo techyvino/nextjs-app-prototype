@@ -1,5 +1,3 @@
-import React from 'react'
-
 const Loading = () => {
     const theme = '#ff6702'
     const theme_secondary = '#F7BD97'
@@ -26,8 +24,8 @@ const Loading = () => {
                             ></circle>
                         </clipPath>
                         <linearGradient y2="1" x2="0" y1="0" x1="0" id="loader-grad">
-                            <stop stop-color="#000" offset="0%"></stop>
-                            <stop stop-color="#fff" offset="100%"></stop>
+                            <stop stopColor="#000" offset="0%"></stop>
+                            <stop stopColor="#fff" offset="100%"></stop>
                         </linearGradient>
                         <mask id="loader-mask">
                             <rect
@@ -39,10 +37,10 @@ const Loading = () => {
                             ></rect>
                         </mask>
                     </defs>
-                    <g stroke-dasharray="175.93 351.86" stroke-width="12" stroke-linecap="round">
+                    <g strokeDasharray="175.93 351.86" strokeWidth="12" strokeLinecap="round">
                         <g>
                             <rect
-                                clip-path="url(#loader-eyes)"
+                                clipPath="url(#loader-eyes)"
                                 height="64"
                                 width="128"
                                 fill={theme_secondary}
@@ -66,7 +64,7 @@ const Loading = () => {
                         </g>
                         <g mask="url(#loader-mask)">
                             <rect
-                                clip-path="url(#loader-eyes)"
+                                clipPath="url(#loader-eyes)"
                                 height="64"
                                 width="128"
                                 fill={theme}
