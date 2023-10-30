@@ -2,13 +2,14 @@
 This is the Next js project builded in top of Next UI based tailwind css, code formatting with prettier and eslint for better and clean errorless code.
 
 React: v18 
-Next Js: v13.5.3
-Tailwind CSS : v3.3.3
+Next Js: v14
+Tailwind CSS : v3.3.5
+
 
 
 Requirements:
 node: 8.18.0 or later,
-pnpm: 8.7.6 or later,
+pnpm: 8.10.0 or later,
 
 First, run the development server:
 
